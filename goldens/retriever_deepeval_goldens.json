@@ -1,0 +1,26 @@
+[
+  {
+    "id": "g001",
+    "query": "How does the cost-effectiveness and reduced latency of model B outweigh its lower accuracy in our specific task, considering we would have chosen model A based on benchmark results but opted for custom evaluation to determine the best fit?",
+    "ideal_answer": "The cost-effectiveness and reduced latency of model B outweigh its lower accuracy because while it may not perform as well in standardized benchmarks, our custom evaluation shows that it is a better value proposition for our specific task. By considering both benchmark results and custom evaluation, we were able to determine that model B's advantages in cost and latency make up for its lower accuracy in this particular application.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g002",
+    "query": "How does the current evaluation method compare to traditional reference-based evaluation, and what are its implications for assessing chatbot performance?",
+    "ideal_answer": "The current evaluation method is a form of reference-free evaluation, as it relies on human judgment to define the rubric and evaluate the answer. This approach differs from traditional reference-based evaluation, where the correct answer is provided in the golden dataset. In this case, there is no predefined correct answer, making it a reference-free evaluation.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g003",
+    "query": "Imagine a scenario where the two models behind LMLENA leaderboards are given a complex, open-ended question. How would their responses be evaluated and ranked by human voters?",
+    "ideal_answer": "In this scenario, the two models behind LMLENA leaderboards would provide their answers to the complex, open-ended question. Human voters would then evaluate these responses based on writing quality, creativity, and the way they address the question. The evaluation process is similar to what's described in the context: human voters select which response they prefer, with options like \"A is better\", \"B is better\", or \"both are good/bad\". After collecting a large number of votes, the leaderboard would be updated to reflect the ranking of the two models based on their performance.",
+    "source": "TODO-verify"
+  },
+  {
+    "id": "g004",
+    "query": "What is the purpose and criteria for using gating in offline evaluation?",
+    "ideal_answer": "The purpose of gating in offline evaluation is to determine whether a model's performance meets a certain threshold. If the score after conducting offline evaluation is above the threshold, the code can be directly pushed with the help of CI (Continuous Integration) and deployed. The criteria for using gating are based on the model's performance in comparison to previous versions, as evaluated by CI.",
+    "source": "TODO-verify"
+  }
+]
